@@ -1,0 +1,9 @@
+                    precision    recall  f1-score   support
+
+            benign     0.9850    0.9847    0.9848      5280
+  direct_injection     0.9711    0.9684    0.9698      2534
+indirect_injection     0.9461    1.0000    0.9723       158
+
+          accuracy                         0.9798      7972
+         macro avg     0.9674    0.9844    0.9756      7972
+      weighted avg     0.9798    0.9798    0.9798      7972

@@ -1,0 +1,27 @@
+# ---- Core Data Manipulation (Stable 1.x / 2.x crossover) ----
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==25.0.1
+
+# ---- Data Visualization ----
+matplotlib==3.9.2
+seaborn==0.13.2
+plotly==5.24.1
+wordcloud==1.9.4
+
+# ---- Statistical & Machine Learning Support ----
+scipy==1.13.1
+scikit-learn==1.5.2
+
+# ---- Automated EDA Tools (Compatible with Python 3.12) ----
+ydata-profiling==4.12.0
+sweetviz==2.3.3
+
+# NLP Libraries
+nltk==3.10.3
+
+# LLM
+transformers==5.17.0
+sentence_transformers==6.0.1
+datasets==5.0.1
+accelerate>=1.1.0

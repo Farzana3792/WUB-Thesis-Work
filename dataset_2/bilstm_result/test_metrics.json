@@ -1,0 +1,35 @@
+{
+  "accuracy": 0.97980431510286,
+  "macro_precision": 0.9674173280346167,
+  "macro_recall": 0.984362817201215,
+  "macro_f1": 0.975640709132891,
+  "weighted_f1": 0.9798047731900005,
+  "test_loss": 0.04649226134572864,
+  "macro_roc_auc": 0.9983295304589276,
+  "weighted_roc_auc": 0.997538649436402,
+  "best_validation_macro_f1": 0.9745237687608101,
+  "n_test_samples": 7972,
+  "classes": {
+    "0": "benign",
+    "1": "direct_injection",
+    "2": "indirect_injection"
+  },
+  "config": {
+    "dataset_dir": "dataset_2",
+    "text_column": "text",
+    "category_column": "label_category",
+    "output_dir": null,
+    "max_length": 128,
+    "max_vocab_size": 30000,
+    "min_freq": 2,
+    "embedding_dim": 100,
+    "hidden_dim": 128,
+    "num_layers": 1,
+    "dropout": 0.3,
+    "epochs": 3,
+    "learning_rate": 0.002,
+    "batch_size": 128,
+    "seed": 42,
+    "no_class_weights": false
+  }
+}
