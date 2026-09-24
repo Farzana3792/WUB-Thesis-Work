@@ -1,0 +1,31 @@
+{
+  "dataset_dir": "dataset_2",
+  "text_column": "text",
+  "category_column": "label_category",
+  "output_dir": null,
+  "hidden_layers": "256,128",
+  "epochs": 20,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "alpha": 0.0001,
+  "vectorizer_max_features": 50000,
+  "ngram_max": 2,
+  "seed": 42,
+  "no_class_weights": false,
+  "model": "MLPClassifier",
+  "architecture": {
+    "input_features": 50000,
+    "hidden_layers": [
+      256,
+      128
+    ],
+    "output_classes": [
+      "benign",
+      "direct_injection",
+      "indirect_injection"
+    ]
+  },
+  "class_weighting": "inverse_frequency_resampling",
+  "selection_metric": "validation_macro_f1",
+  "best_epoch": 10
+}

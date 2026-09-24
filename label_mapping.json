@@ -1,0 +1,12 @@
+{
+  "label2id": {
+    "benign": 0,
+    "direct_injection": 1,
+    "indirect_injection": 2
+  },
+  "id2label": {
+    "0": "benign",
+    "1": "direct_injection",
+    "2": "indirect_injection"
+  }
+}

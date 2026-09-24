@@ -1,0 +1,47 @@
+{
+  "accuracy": 0.9789262418464626,
+  "macro_precision": 0.979127134065183,
+  "macro_recall": 0.9843313761131441,
+  "macro_f1": 0.9817109323594725,
+  "weighted_f1": 0.9789438841019914,
+  "n_test_samples": 7972,
+  "classes": [
+    "benign",
+    "direct_injection",
+    "indirect_injection"
+  ],
+  "best_validation_macro_f1": 0.9857683478364359,
+  "config": {
+    "dataset_dir": "dataset_2",
+    "text_column": "text",
+    "category_column": "label_category",
+    "output_dir": null,
+    "hidden_layers": "256,128",
+    "epochs": 20,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "alpha": 0.0001,
+    "vectorizer_max_features": 50000,
+    "ngram_max": 2,
+    "seed": 42,
+    "no_class_weights": false,
+    "model": "MLPClassifier",
+    "architecture": {
+      "input_features": 50000,
+      "hidden_layers": [
+        256,
+        128
+      ],
+      "output_classes": [
+        "benign",
+        "direct_injection",
+        "indirect_injection"
+      ]
+    },
+    "class_weighting": "inverse_frequency_resampling",
+    "selection_metric": "validation_macro_f1",
+    "best_epoch": 10
+  },
+  "macro_roc_auc": 0.9979248193744592,
+  "weighted_roc_auc": 0.9969575174893017
+}
